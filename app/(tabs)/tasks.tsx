@@ -1,9 +1,7 @@
-import { useRouter } from "expo-router";
 import { useState } from "react";
 import { Alert, FlatList, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 
 export default function Tasks() {
-  const router = useRouter();
   const [task, setTask] = useState('');
   const [tasks, setTasks] = useState<{id: string; text: string}[]>([]);
 

@@ -3,7 +3,6 @@ import { ScrollView, StyleSheet, Text, View } from "react-native";
 import AppCard from "../components/AppCard";
 
 export default function Index() {
-  // const router = useRouter();
 
   type AppItem = {
     name: string;
