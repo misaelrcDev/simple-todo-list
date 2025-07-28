@@ -21,7 +21,7 @@ export default function Index() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.title}>AppVet</Text>
+      <Text style={styles.title}>Todo List</Text>
       <View style={styles.grid}>
         {apps.map((app) => (
           <AppCard
